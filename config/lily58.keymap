@@ -33,11 +33,11 @@
 
         arrows+bt {
             bindings = <
-&none  &none  &none  &none   &none   &none                    &none        &none          &none        &none      &none            &none
-&none  &none  &none  &none   &none   &none                    &kp HOME     &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &none            &none
-&none  &none  &none  &none   &none   &none                    &kp LEFT     &kp DOWN       &kp UP       &kp RIGHT  &none            &none
-&none  &none  &none  &none   &none   &none   &to 2     &to 0  &kp KP_PLUS  &kp MINUS      &kp EQUAL    &kp SLASH  &kp KP_ASTERISK  &kp CARET
-                     &trans  &trans  &trans  &trans    &none  &none        &none          &none
+&none  &none  &none  &none   &none   &none                     &none        &none          &none        &none      &none            &none
+&none  &none  &none  &none   &none   &none                     &kp HOME     &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &none            &none
+&none  &none  &none  &none   &none   &none                     &kp LEFT     &kp DOWN       &kp UP       &kp RIGHT  &none            &none
+&none  &none  &none  &none   &none   &none   &to 2     &to 0   &kp KP_PLUS  &kp MINUS      &kp EQUAL    &kp SLASH  &kp KP_ASTERISK  &kp CARET
+                     &trans  &trans  &trans  &trans    &trans  &none        &none          &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
