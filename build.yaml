@@ -18,13 +18,13 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano@2.0.0//zmk
     shield: lily58_left
-  - board: nice_nano_v2
+  - board: nice_nano@2.0.0//zmk
     shield: lily58_right
-  - board: nice_nano_v2
+  - board: nice_nano@2.0.0//zmk
     shield: settings_reset
-  - board: nice_nano_v2
+  - board: nice_nano@2.0.0//zmk
     shield: lily58_left
     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y -DCONFIG_ZMK_LOG_LEVEL_DBG=y
     artifact-name: lily58_left_logging
